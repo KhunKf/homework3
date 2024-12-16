@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background-color: antiquewhite;
+    background-image: url(https://images.pexels.com/photos/2078266/pexels-photo-2078266.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+
+}
+
+nav {
+    padding: 16px 0px;
+    display: flex;
+    justify-content: end;
+}
+
+footer {
+    color: rgba(255, 255, 255, 0.434);
+    text-align: center;
+    padding: 8px;
+    border-top: 1px solid gray;
+}
+
+.social svg {
+    width: 100%;
+}
+
+.social div {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    padding: 4px;
+    border: 1px solid white;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    gap: 32px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content h1 {
+    text-align: center;
+    color: white;
+    font-size: 3.5rem;
+
+}
+
+.container-progress {
+    flex: 1;
+}
+
+.container-progress p {
+    text-align: center;
+    color: white;
+
+}
+
+.progress-bar {
+    height: 8px;
+    background-color: white;
+    width: 30vw;
+    position: relative;
+}
+
+.progress-bar-active {
+    height: 8px;
+    background-color: rgb(139, 217, 241);
+    width: 25vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.progress-text {
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: rgb(139, 217, 241);
+    font-size: 14px;
+    border: 0;
+}
+
+.social {
+    display: flex;
+    gap: 8px;
+}
